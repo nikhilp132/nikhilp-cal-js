@@ -7,10 +7,11 @@ const appDiv = document.getElementById('app');
 
 function abc(a, b) {
   var c = a + b;
-  console.log(c);
+  // console.log(c);
+  // return;
 }
 
-console.log(abc(3, 4));
+// console.log(abc(3, 4));
 
 var d = abc(5, 5);
 
