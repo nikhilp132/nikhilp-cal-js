@@ -7,14 +7,33 @@ const appDiv = document.getElementById('app');
 
 function abc(a, b) {
   var c = a + b;
-  // console.log(c);
-  // return;
+  return c;
 }
 
-// console.log(abc(3, 4));
+var arr1 = [6, 8, 19];
+var arr2 = [1, 4, 34];
 
-var d = abc(5, 5);
+// for (var i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
 
-console.log(d);
+// console.log(arr);
+// document.write(arr);
+//[6,8,19,1,4,34]
 
-// document.write(myFunction(5));
+var newarr = arr1.concat(arr2);
+
+console.log('New array:' + newarr);
+
+for (var i = 0; i < newarr.length - 1; i++) {
+  for (var j = i + 1; j < newarr.length - 1; j++) {
+    if (newarr[i] > newarr[j]) {
+      var temp = newarr[i];
+      newarr[i] = newarr[j];
+      newarr[j] = temp;
+    } else {
+    }
+  }
+}
+
+console.log('Sorted array:' + newarr);
