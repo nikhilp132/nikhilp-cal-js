@@ -5,13 +5,13 @@ import './style.css';
 const appDiv = document.getElementById('app');
 // appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
-function abc(a, b) {
-  var c = a + b;
-  return c;
-}
+// function abc(a, b) {
+//   var c = a + b;
+//   return c;
+// }
 
-var arr1 = [6, 8, 19];
-var arr2 = [1, 4, 34];
+// var arr1 = [6, 8, 19];
+// var arr2 = [1, 4, 34];
 
 // for (var i = 0; i < arr.length; i++) {
 //   console.log(arr[i]);
@@ -42,16 +42,24 @@ var arr2 = [1, 4, 34];
 
 // console.log(str1.match('an'));
 
-const numbers = [45, 4, 9, 16, 25];
+// const numbers = [45, 4, 9, 16, 25];
 
-function myFunction(value, index, array) {
-  // console.log(value);
-  var a = 1;
-  return a;
+// function myFunction(value, index, array) {
+//   // console.log(value);
+//   var a = 1;
+//   return a;
+// }
+
+// let txt = numbers.forEach(myFunction);
+
+// // document.getElementById("demo").innerHTML = txt;
+// // console.log(txt);
+// console.log(numbers.forEach(myFunction));
+
+var a = 3;
+
+if (typeof a != 'number') {
+  alert('Enter a valid number');
+} else {
+  console.log(typeof a);
 }
-
-let txt = numbers.forEach(myFunction);
-
-// document.getElementById("demo").innerHTML = txt;
-// console.log(txt);
-console.log(numbers.forEach(myFunction));
